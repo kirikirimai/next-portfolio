@@ -1,0 +1,57 @@
+.wrapper .container, .pnWrapper {
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.hero {
+  text-align: center;
+}
+
+.wrapper {
+  padding: 5rem 0 10rem;
+}
+
+@media (max-width: 540px) {
+  .wrapper {
+    padding: 2rem 0 10rem;
+  }
+}
+
+.pnWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+@media (max-width: 540px) {
+  .pnWrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.pnWrapper .linkCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 2px solid #ff5436;
+  width: 100%;
+  padding: 2rem 5rem;
+  color: inherit;
+}
+
+.pnWrapper .linkCard:hover {
+  opacity: 0.8;
+}
+/*# sourceMappingURL=singleBlog.module.css.map */

@@ -1,0 +1,50 @@
+.wrapper .container {
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.wrapper {
+  padding: 7rem 0 10rem;
+}
+
+.wrapper .container input[type=text], .wrapper .container input[type=email], .wrapper .container textarea {
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0.4rem;
+  margin-bottom: 1rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: solid 1px grey;
+  border-radius: 5px;
+}
+
+.wrapper .container label {
+  font-size: 1.4rem;
+}
+
+.wrapper .container button {
+  width: 100%;
+  border: none;
+  color: white;
+  padding: 0.5rem 2rem;
+  font-size: 1.6rem;
+  color: #fff;
+  background-color: #ff5436;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  border-radius: 5px;
+}
+
+.wrapper .container button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.wrapper .container *:focus {
+  outline: none;
+}
+/*# sourceMappingURL=contact.module.css.map */
